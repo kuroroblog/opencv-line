@@ -17,7 +17,7 @@ if img is None:
 # 第三引数(必須) : 線分の終点の座標。tuple型。
 # 第四引数(必須) : 線分の色を指定する。B(Blue)G(Green)R(Red)形式で指定する。tuple型。
 # thickness : 線分の太さ(px)を指定する。int型(１以上の整数)。デフォルト(thicknessを指定しない場合)は1が設定される。
-cv2.line(img, (10, 20), (100, 120), (255, 0, 0), thickness=4)
+cv2.line(img, (200, 200), (150, 100), (255, 0, 0), thickness=4)
 
 # imwrite : 画像の保存を行う関数
 # 第一引数 : 保存先の画像ファイル名
